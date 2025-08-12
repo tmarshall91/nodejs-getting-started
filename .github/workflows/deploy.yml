@@ -53,6 +53,6 @@ jobs:
             docker run -d \
               --name $(echo ${{ env.IMAGE_NAME }} | cut -d'/' -f2) \
               --network my-shared-network \
-              -p 8001:5000 \
+              -p 8001:5006 \
               --restart unless-stopped \
               ghcr.io/${{ env.IMAGE_NAME }}:latest
