@@ -1,5 +1,5 @@
 # nodejs-getting-started
-
+This is the first app deployed from my app factory
 A barebones Node.js app using [Express](https://expressjs.com/).
 
 This application supports the tutorials for both the [Cedar and Fir generations](https://devcenter.heroku.com/articles/generations) of the Heroku platform. You can check them out here:
